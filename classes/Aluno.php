@@ -90,6 +90,7 @@
 			$sql = new Sql();
 			$query= "DELETE FROM tb_alunos WHERE cpf=:cpf_aluno";
 			$resultado= $sql->query($query, array(":cpf_aluno"=>$cpf));
+			//terminando
 		}
 
 
